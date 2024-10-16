@@ -1,17 +1,15 @@
-## Foundry
+## Minimal uaVM
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**uaVM is a universal account virtual machine that solves the ethereum fragmentation problem at the account level. This is an attempt to build a minimal proof of concept using the Aligned Layer for proof aggregation and settlement on the Ethereum holesky testnet network.**
 
-Foundry consists of:
+**Proofs are written in Rust and are generated using the SP1 zkVM by succint labs.**
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Minimal uaVM consists of:
+
+-   **Foundry**: The blazing fast ethereum testing framework.
 
 ## Documentation
 
-https://book.getfoundry.sh/
 
 ## Usage
 
